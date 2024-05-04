@@ -236,9 +236,6 @@ footer li {
   html {
     font-size: 75%;
   }
-  .simply-countdown > .simply-section {
-    padding: 70px;
-  }
   .home .love {
     display: none;
   }
@@ -275,8 +272,8 @@ footer li {
     font-size: 65%;
   }
   .simply-countdown > .simply-section {
-    padding: 60px;
-    margin: 5px;
+    padding: 10px;
+    margin: 10px;
   }
   .mynavbar .nav-link {
     font-size: 1.5rem;
@@ -294,26 +291,12 @@ footer li {
   }
 }
 /* MOBILE PHONE */
-@media (max-width: 576px) {
+@media (max-width: 550px) {
   html {
     font-size: 60%;
   }
   .simply-countdown > .simply-section {
     padding: 1px;
-    margin: 0.5px;
-  }
-  .timeline li .timeline-image {
-    width: 60px;
-    height: 60px;
-  }
-  .timeline li .timeline-panel {
-    width: 65%;
-    transform: translateX(-5%);
-  }
-  .timeline li .timeline-panel::before {
-    top: 30px;
-  }
-  .timeline li .timeline-panel::after {
-    top: 31px;
+    margin: 1px;
   }
 }
