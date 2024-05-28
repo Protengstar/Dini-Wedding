@@ -1,7 +1,7 @@
 :root {
-  --pink: rgb(211, 194, 164);
+  --pink: #d3c2a4;
   --bg: rgb(2, 2, 2);
-  --shadow: 0 0px 2px rgb(0 0 0 /0.5);
+  --shadow: 0 0px 2px black;
 }
 body {
   font-size: 1.2rem;
@@ -234,7 +234,7 @@ footer li {
 /* LAPTOP */
 @media (max-width: 992px) {
   html {
-    font-size: 75%;
+    font-size: 65%;
   }
   .home .love {
     display: none;
@@ -269,11 +269,11 @@ footer li {
 /* TABLET */
 @media (max-width: 768px) {
   html {
-    font-size: 65%;
+    font-size: 60%;
   }
   .simply-countdown > .simply-section {
-    padding: 10px;
-    margin: 10px;
+    padding: 60px;
+    margin: 5px;
   }
   .mynavbar .nav-link {
     font-size: 1.5rem;
@@ -291,12 +291,12 @@ footer li {
   }
 }
 /* MOBILE PHONE */
-@media (max-width: 550px) {
+@media (max-width: 576px) {
   html {
     font-size: 60%;
   }
   .simply-countdown > .simply-section {
-    padding: 1px;
-    margin: 1px;
+    padding: 10px;
+    margin: 3px;
   }
 }

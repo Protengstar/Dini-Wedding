@@ -12,17 +12,20 @@
   align-items: center;
   justify-content: center;
   float: left;
-  margin: 5px;
+  margin: 15px;
+  background: var(--pink);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 50%;
 }
+.simply-countdown > .simply-section .simply-amount,
 .simply-countdown > .simply-section .simply-word {
-  color: white;
   display: block;
   text-align: center;
-  font-size: 1rem;
+  text-shadow: 0 0px 2px black;
 }
 .simply-countdown > .simply-section .simply-amount {
-  color: white;
-  display: block;
-  text-align: center;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
+}
+.simply-countdown > .simply-section .simply-word {
+  font-size: 0.9rem;
 }
